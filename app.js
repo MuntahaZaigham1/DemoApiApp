@@ -9,15 +9,15 @@ app.get('/api/data', (req, res) => {
     const data = [
         { source: "Direct", total: '2873 visits' },
         { source: "Facebook", total: '2000 visits' },
-        { source: "Instagram", total: '2873 visits' },
-        { source: "Twitter", total: '2673 visits' },
-        { source: "Whatsapp", total: '2123 visits' },
-        { source: "Threads", total: '1258 visits' },
-        { source: "Snapchat", total: '1200 visits' },
-        { source: "Google Plus", total: '90 visits' },
-        { source: "Slack", total: '120 visits' },
-        { source: "Teams", total: '100 visits' },
-        { source: "Youtube", total: '3000 visits' }
+        { source: "Instagram", total: '2500 visits' },
+        { source: "Twitter", total: '1800 visits' },
+        { source: "WhatsApp", total: '1500 visits' },
+        { source: "LinkedIn", total: '1200 visits' },
+        { source: "Pinterest", total: '1100 visits' },
+        { source: "YouTube", total: '1000 visits' },
+        { source: "TikTok", total: '900 visits' },
+        { source: "Reddit", total: '800 visits' },
+        { source: "Tumblr", total: '700 visits' }
     ];
     res.json(data);
 });
